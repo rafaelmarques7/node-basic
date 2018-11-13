@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-      name: 'node-server-app',
+      name: 'node-basic',
       script: './index.js'
     }],
     deploy: {
