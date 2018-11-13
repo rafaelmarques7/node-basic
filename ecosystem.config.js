@@ -10,7 +10,7 @@ module.exports = {
         key: '~/.ssh/engagement-host-ec2.pem',
         ref: 'origin/master',
         repo: 'git@github.com:afaelmarques7/node-basic.git',
-        path: '~',
+        path: '~/node-app',
         'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
       }
     }
